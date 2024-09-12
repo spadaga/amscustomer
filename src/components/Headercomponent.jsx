@@ -6,7 +6,7 @@ import Help from './Header/Help'
 
 const Headercomponent = () => {
     return (
-        <AppBar position="static" sx={{ backgroundColor: '#1976d2', color: '#ffffff' }}>
+        <AppBar position="static" sx={{ backgroundColor: 'white' }}>
             <Toolbar >
                 <Title className="header-title"></Title>
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>

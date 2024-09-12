@@ -1,0 +1,1124 @@
+:root ,.isn{
+    --dxp-g-brand: #005fb2;
+    --dxp-s-text-heading-medium-letter-spacing: 0em;
+    --dxp-s-form-element-text-font-family: "Salesforce Sans";
+    --dxp-s-form-element-spacing-horizontal-start: 12px;
+    --dxp-s-text-heading-small-text-decoration: none;
+    --dxp-s-dropdown-text-color: var(--dxp-g-root-contrast);
+    --dxp-s-tertiary-button-text-color: var(--dxp-s-button-color);
+    --dxp-s-form-element-caption-text-font-family: "Salesforce Sans";
+    --dxp-s-form-element-spacing-block-start: 0px;
+    --dxp-g-neutral-contrast-3: #ffffff;
+    --dxp-s-text-heading-medium-text-transform: none;
+    --dxp-g-neutral-contrast-2: #000000;
+    --dxp-g-neutral-contrast-1: #000000;
+    --dxp-s-button-color-focus-contrast: #ffffff;
+    --dxp-s-tertiary-button-border-color-1: rgba(0, 0, 0, 0);
+    --dxp-s-button-border-color-active: var(--dxp-s-button-border-color-focus);
+    --dxp-s-link-text-color-1: var(--dxp-g-brand-1);
+    --dxp-s-form-element-label-font-style: normal;
+    --dxp-g-info: #16325c;
+    --dxp-g-root: #ffffff;
+    --dxp-s-tertiary-button-text-color-focus: var(--dxp-s-tertiary-button-text-color-1);
+    --dxp-s-form-element-text-text-decoration: none;
+    --dxp-s-form-element-caption-text-font-weight: 400;
+    --dxp-s-body-line-height: 1.5;
+    --dxp-s-text-heading-extra-small-font-style: normal;
+    --dxp-s-button-large-padding-block-end: 0rem;
+    --dxp-s-body-text-decoration: none;
+    --dxp-s-section-content-spacing-inline-end-mobile: 0.75rem;
+    --dxp-s-form-element-text-font-weight: 400;
+    --dxp-s-tertiary-button-color-1: rgba(0, 0, 0, 0);
+    --dxp-s-text-heading-medium-font-style: normal;
+    --dxp-s-form-checkbox-color-background-checked: var(--dxp-s-form-checkbox-color-background);
+    --dxp-s-secondary-button-color-focus: var(--dxp-s-secondary-button-color-1);
+    --dxp-s-text-heading-extra-extra-small-line-height: 1.25;
+    --dxp-g-warning-2: #e27d00;
+    --dxp-g-warning-3: #673900;
+    --dxp-s-form-element-color-border: var(--dxp-g-neutral-3);
+    --dxp-g-warning-1: #ffa534;
+    --dxp-s-header-content-max-width-mobile: none;
+    --dxp-s-secondary-button-color-hover: var(--dxp-s-secondary-button-color-1);
+    --dxp-s-text-heading-large-letter-spacing: 0em;
+    --dxp-s-button-padding-inline-end: 1rem;
+    --dxp-s-tertiary-button-border-color-hover: var(--dxp-s-tertiary-button-border-color-1);
+    --dxp-s-tertiary-button-border-color-focus: var(--dxp-s-tertiary-button-border-color-1);
+    --dxp-s-body-font-style: normal;
+    --dxp-g-warning-contrast: #000000;
+    --dxp-s-form-element-text-text-transform: none;
+    --dxp-s-button-large-padding-inline-start: 1.25rem;
+    --dxp-s-text-heading-medium-line-height: 1.25;
+    --dxp-s-column-spacer-size: 1rem;
+    --dxp-s-text-heading-large-text-transform: none;
+    --dxp-s-secondary-button-border-color: var(--dxp-s-button-color);
+    --dxp-s-text-heading-extra-large-letter-spacing: 0em;
+    --dxp-s-text-heading-large-font-size: 1.75rem;
+    --dxp-s-secondary-button-text-color: var(--dxp-s-button-color);
+    --dxp-s-form-element-text-font-style: normal;
+    --dxp-s-button-font-family: "Inter";
+    --dxp-s-form-element-placeholder-text-color: var(--dxp-g-neutral-3);
+    --dxp-s-form-element-color-background: var(--dxp-g-root);
+    --dxp-s-tertiary-button-border-color-active: var(--dxp-s-tertiary-button-border-color-focus);
+    --dxp-s-button-padding-block-start: 0rem;
+    --dxp-s-text-heading-extra-extra-small-font-style: normal;
+    --dxp-s-button-font-weight: 400;
+    --dxp-s-body-font-weight: 400;
+    --dxp-s-body-small-line-height: 1.25;
+    --dxp-g-offline: #444444;
+    --dxp-s-button-small-font-size: 0.75rem;
+    --dxp-s-button-radius-border: 4px;
+    --dxp-s-button-small-padding-block-end: 0rem;
+    --dxp-s-component-wrapper-spacer-size-mobile: 0rem;
+    --dxp-s-form-element-label-font-size: 1rem;
+    --dxp-s-text-heading-extra-small-line-height: 1.25;
+    --dxp-s-text-heading-small-line-height: 1.25;
+    --dxp-s-section-content-spacing-block-end: 1rem;
+    --dxp-s-secondary-button-text-color-focus: var(--dxp-s-secondary-button-text-color-1);
+    --dxp-g-success-3: #07190f;
+    --dxp-g-warning: #ffb75d;
+    --dxp-g-success-2: #237747;
+    --dxp-g-success-1: #36b66c;
+    --dxp-s-button-small-padding-inline-end: 0.75rem;
+    --dxp-s-column-spacer-size-mobile: 0.75rem;
+    --dxp-s-text-heading-small-font-family: "Inter";
+    --dxp-s-text-heading-large-font-style: normal;
+    --dxp-g-info-contrast-3: #ffffff;
+    --dxp-s-form-checkbox-color-border-checked: var(--dxp-s-form-checkbox-color-border);
+    --dxp-s-button-color-active: var(--dxp-s-button-color-focus);
+    --dxp-s-section-content-spacing-inline-start-mobile: 0.75rem;
+    --dxp-s-section-content-spacing-block-end-mobile: 0.75rem;
+    --dxp-s-html-font-size: 1rem;
+    --dxp-s-body-font-family: "Inter";
+    --dxp-s-link-text-decoration-focus: underline;
+    --dxp-g-info-contrast-1: #ffffff;
+    --dxp-s-dropdown-text-color-hover: var(--dxp-g-neutral-contrast);
+    --dxp-g-info-contrast-2: #ffffff;
+    --dxp-s-text-heading-extra-large-font-family: "Inter";
+    --dxp-s-text-heading-medium-text-decoration: none;
+    --dxp-s-secondary-button-color-active: var(--dxp-s-secondary-button-color-focus);
+    --dxp-s-form-element-label-line-height: 1.5;
+    --dxp-s-text-heading-extra-extra-small-font-family: "Salesforce Sans";
+    --dxp-s-text-heading-small-font-weight: 300;
+    --dxp-s-text-heading-large-font-weight: 300;
+    --dxp-s-form-element-text-color: var(--dxp-g-root-contrast);
+    --dxp-g-destructive-contrast: #ffffff;
+    --dxp-s-form-checkbox-radius-border: 4px;
+    --dxp-g-destructive-contrast-1: #ffffff;
+    --dxp-g-destructive-contrast-2: #ffffff;
+    --dxp-g-root-1: #ebebeb;
+    --dxp-g-destructive-contrast-3: #ffffff;
+    --dxp-g-root-2: #c2c2c2;
+    --dxp-s-section-content-spacing-inline-start: 1rem;
+    --dxp-g-root-3: #858585;
+    --dxp-s-button-color-1: var(--dxp-g-brand-1);
+    --dxp-s-form-element-color-background-active: var(--dxp-s-form-element-color-background);
+    --dxp-s-body-text-color: var(--dxp-g-root-contrast);
+    --dxp-s-footer-content-max-width-mobile: none;
+    --dxp-g-brand-contrast: #ffffff;
+    --dxp-s-button-border-color-hover: var(--dxp-s-button-color-hover);
+    --dxp-s-text-heading-extra-small-letter-spacing: 0em;
+    --dxp-s-form-element-width-border: 1px;
+    --dxp-s-body-small-text-color: var(--dxp-g-root-contrast);
+    --dxp-s-form-checkbox-width-border: 1px;
+    --dxp-s-button-color-active-contrast: var(--dxp-s-button-color-focus-contrast);
+    --dxp-s-button-line-height: 2;
+    --dxp-s-button-small-padding-inline-start: 0.75rem;
+    --dxp-s-text-heading-extra-extra-small-text-transform: none;
+    --dxp-s-form-element-color-border-focus: var(--dxp-g-brand);
+    --dxp-s-button-large-radius-border: 4px;
+    --dxp-s-text-heading-extra-extra-small-font-weight: 600;
+    --dxp-s-button-border-color: var(--dxp-s-button-color);
+    --dxp-s-secondary-button-color: var(--dxp-g-root);
+    --dxp-s-text-heading-extra-small-text-decoration: none;
+    --dxp-s-text-heading-extra-extra-small-color: var(--dxp-g-root-contrast);
+    --dxp-s-form-element-radius-border: 4px;
+    --dxp-s-form-element-text-color-focus: var(--dxp-s-form-element-text-color);
+    --dxp-s-tertiary-button-border-color: rgba(0, 0, 0, 0);
+    --dxp-g-destructive: #c23934;
+    --dxp-s-tertiary-button-color-active: var(--dxp-s-tertiary-button-color-focus);
+    --dxp-s-dropdown-color-border: var(--dxp-g-neutral);
+    --dxp-g-offline-contrast: #ffffff;
+    --dxp-s-text-heading-large-color: var(--dxp-g-root-contrast);
+    --dxp-s-button-large-padding-block-start: 0rem;
+    --dxp-s-link-text-decoration-hover: underline;
+    --dxp-s-button-color-focus: var(--dxp-s-button-color-1);
+    --dxp-s-form-element-text-line-height: 1.5;
+    --dxp-s-form-element-caption-text-line-height: 1.5;
+    --dxp-s-body-small-font-family: "Inter";
+    --dxp-s-body-small-letter-spacing: 0em;
+    --dxp-s-text-heading-extra-large-text-transform: none;
+    --dxp-s-form-element-label-text-transform: none;
+    --dxp-g-success: #4bca81;
+    --dxp-s-form-checkbox-color-background: var(--dxp-s-form-element-color-background);
+    --dxp-s-form-element-label-letter-spacing: 0;
+    --dxp-s-form-element-label-font-weight: 400;
+    --dxp-s-button-text-decoration: none;
+    --dxp-s-text-heading-extra-large-line-height: 1.25;
+    --dxp-s-button-border-color-focus: var(--dxp-s-button-color-focus);
+    --dxp-g-warning-contrast-3: #ffffff;
+    --dxp-s-button-large-font-size: 1.25rem;
+    --dxp-s-button-small-radius-border: 4px;
+    --dxp-s-body-font-size: 1rem;
+    --dxp-s-dropdown-color-background: var(--dxp-g-root);
+    --dxp-s-body-small-text-decoration: none;
+    --dxp-s-secondary-button-text-color-active: var(--dxp-s-secondary-button-text-color-focus);
+    --dxp-s-text-heading-large-line-height: 1.25;
+    --dxp-s-button-color-hover: var(--dxp-s-button-color-1);
+    --dxp-s-button-font-size: 1rem;
+    --dxp-s-button-letter-spacing: 0em;
+    --dxp-g-warning-contrast-2: #000000;
+    --dxp-g-warning-contrast-1: #000000;
+    --dxp-s-button-padding-inline-start: 1rem;
+    --dxp-g-root-contrast-1: #000000;
+    --dxp-g-root-contrast: #1a1b1e;
+    --dxp-g-root-contrast-2: #000000;
+    --dxp-g-root-contrast-3: #000000;
+    --dxp-s-header-content-max-width: 1800px;
+    --dxp-s-section-columns-max-width: 1800px;
+    --dxp-s-form-element-spacing-block-end: 0px;
+    --dxp-s-button-text-transform: none;
+    --dxp-s-body-text-transform: none;
+    --dxp-s-form-element-label-font-family: "Salesforce Sans";
+    --dxp-s-form-checkbox-color-border: var(--dxp-s-form-element-color-border);
+    --dxp-s-form-element-caption-text-text-transform: none;
+    --dxp-s-body-letter-spacing: 0em;
+    --dxp-s-form-element-caption-text-letter-spacing: 0;
+    --dxp-s-tertiary-button-color: rgba(0, 0, 0, 0);
+    --dxp-s-body-small-font-style: normal;
+    --dxp-s-text-heading-small-font-style: normal;
+    --dxp-s-text-heading-extra-extra-small-font-size: 0.625rem;
+    --dxp-s-text-heading-small-color: var(--dxp-g-root-contrast);
+    --dxp-s-section-content-spacing-block-start: 1rem;
+    --dxp-s-html-font-size-mobile: 1rem;
+    --dxp-s-section-content-spacing-inline-end: 1rem;
+    --dxp-s-body-small-font-weight: 400;
+    --dxp-g-offline-3: #000000;
+    --dxp-g-offline-2: #070707;
+    --dxp-g-offline-1: #303030;
+    --dxp-s-button-color-contrast-1: var(--dxp-g-brand-contrast-1);
+    --dxp-s-secondary-button-border-color-active: var(--dxp-s-secondary-button-border-color-focus);
+    --dxp-s-text-heading-extra-extra-small-letter-spacing: 0em;
+    --dxp-s-text-heading-extra-large-text-decoration: none;
+    --dxp-g-success-contrast: #000000;
+    --dxp-s-text-heading-small-font-size: 1.125rem;
+    --dxp-s-button-font-style: normal;
+    --dxp-s-body-small-text-transform: none;
+    --dxp-g-brand-contrast-1: #ffffff;
+    --dxp-g-brand-contrast-3: #ffffff;
+    --dxp-s-button-color-hover-contrast: #ffffff;
+    --dxp-g-brand-contrast-2: #ffffff;
+    --dxp-g-brand-1: #004989;
+    --dxp-g-brand-2: #001e38;
+    --dxp-g-brand-3: #000000;
+    --dxp-s-secondary-button-text-color-1: var(--dxp-s-button-color-1);
+    --dxp-s-link-text-color-hover: rgb(5, 72, 5);
+    --dxp-g-offline-contrast-3: #ffffff;
+    --dxp-g-offline-contrast-2: #ffffff;
+    --dxp-s-button-small-padding-block-start: 0rem;
+    --dxp-s-tertiary-button-color-hover: var(--dxp-s-tertiary-button-color-1);
+    --dxp-s-text-heading-extra-small-font-family: "Salesforce Sans";
+    --dxp-s-form-element-caption-text-text-decoration: none;
+    --dxp-s-body-small-font-size: 0.75rem;
+    --dxp-g-destructive-1: #a2302b;
+    --dxp-g-offline-contrast-1: #ffffff;
+    --dxp-s-text-heading-small-text-transform: none;
+    --dxp-s-tertiary-button-text-color-1: var(--dxp-s-button-color-1);
+    --dxp-g-info-contrast: #ffffff;
+    --dxp-s-link-text-color: rgb(28, 130, 28);
+    --dxp-s-text-heading-extra-extra-small-text-decoration: none;
+    --dxp-g-neutral: #ecebea;
+    --dxp-g-destructive-2: #611d1a;
+    --dxp-g-destructive-3: #010000;
+    --dxp-s-form-element-label-color: var(--dxp-g-root-contrast);
+    --dxp-s-text-heading-extra-large-font-weight: 300;
+    --dxp-s-text-heading-large-font-family: "Inter";
+    --dxp-s-text-heading-extra-large-font-style: normal;
+    --dxp-s-tertiary-button-text-color-active: var(--dxp-s-tertiary-button-text-color-focus);
+    --dxp-s-text-heading-extra-small-text-transform: none;
+    --dxp-s-text-heading-extra-small-font-weight: 600;
+    --dxp-s-form-element-text-font-size: 1rem;
+    --dxp-s-secondary-button-border-color-hover: var(--dxp-s-secondary-button-border-color-1);
+    --dxp-s-button-large-padding: 1.25rem;
+    --dxp-g-info-2: #000000;
+    --dxp-g-info-3: #000000;
+    --dxp-s-secondary-button-border-color-focus: var(--dxp-s-secondary-button-border-color-1);
+    --dxp-s-text-heading-medium-font-weight: 300;
+    --dxp-g-info-1: #0e203b;
+    --dxp-g-neutral-contrast: #000000;
+    --dxp-s-dropdown-color-background-hover: var(--dxp-g-neutral);
+    --dxp-s-button-color: var(--dxp-g-brand);
+    --dxp-g-neutral-3: #76716b;
+    --dxp-g-neutral-2: #b2aeaa;
+    --dxp-s-text-heading-extra-large-color: var(--dxp-g-root-contrast);
+    --dxp-g-neutral-1: #d9d7d5;
+    --dxp-s-secondary-button-color-1: var(--dxp-g-root-1);
+    --dxp-g-success-contrast-3: #ffffff;
+    --dxp-g-success-contrast-2: #ffffff;
+    --dxp-s-text-heading-extra-large-font-size: 2.5rem;
+    --dxp-s-secondary-button-border-color-1: var(--dxp-s-button-color-1);
+    --dxp-s-tertiary-button-color-focus: var(--dxp-s-tertiary-button-color-1);
+    --dxp-s-form-element-caption-text-font-size: 0.75rem;
+    --dxp-s-form-element-spacing-horizontal-end: 16px;
+    --dxp-g-success-contrast-1: #000000;
+    --dxp-s-component-wrapper-spacer-size: 0rem;
+    --dxp-s-button-large-padding-inline-end: 1.25rem;
+    --dxp-s-text-heading-extra-small-color: var(--dxp-g-root-contrast);
+    --dxp-s-tertiary-button-text-color-hover: var(--dxp-s-tertiary-button-text-color-1);
+    --dxp-s-link-text-decoration: none;
+    --dxp-s-text-heading-medium-font-size: 1.25rem;
+    --dxp-s-form-element-label-text-decoration: none;
+    --dxp-s-text-heading-extra-small-font-size: 0.8125rem;
+    --dxp-s-button-color-contrast: var(--dxp-g-brand-contrast);
+    --dxp-s-button-padding-block-end: 0rem;
+    --dxp-s-section-columns-max-width-mobile: none;
+    --dxp-s-text-heading-medium-color: var(--dxp-g-root-contrast);
+    --dxp-s-button-small-padding: 0.75rem;
+    --dxp-s-text-heading-large-text-decoration: none;
+    --dxp-s-form-element-caption-text-font-style: normal;
+    --dxp-s-button-padding: 1rem;
+    --dxp-s-secondary-button-text-color-hover: var(--dxp-s-secondary-button-text-color-1);
+    --dxp-s-text-heading-medium-font-family: "Inter";
+    --dxp-s-footer-content-max-width: 1800px;
+    --dxp-s-text-heading-small-letter-spacing: 0em;
+    --dxp-s-form-element-text-letter-spacing: 0;
+    --dxp-s-section-content-spacing-block-start-mobile: 0.75rem;
+    --dxp-g-brand-h: 208;
+    --dxp-g-brand-s: 100%;
+    --dxp-g-brand-l: 35%;
+    --dxp-g-brand-a: 1.0;
+    --dxp-s-button-color-focus-contrast-h: 0;
+    --dxp-s-button-color-focus-contrast-s: 0%;
+    --dxp-s-button-color-focus-contrast-l: 100%;
+    --dxp-s-button-color-focus-contrast-a: 1.0;
+    --dxp-g-info-h: 216;
+    --dxp-g-info-s: 61%;
+    --dxp-g-info-l: 22%;
+    --dxp-g-info-a: 1.0;
+    --dxp-g-root-h: 0;
+    --dxp-g-root-s: 0%;
+    --dxp-g-root-l: 100%;
+    --dxp-g-root-a: 1.0;
+    --dxp-g-warning-contrast-h: 0;
+    --dxp-g-warning-contrast-s: 0%;
+    --dxp-g-warning-contrast-l: 0%;
+    --dxp-g-warning-contrast-a: 1.0;
+    --dxp-g-offline-h: 0;
+    --dxp-g-offline-s: 0%;
+    --dxp-g-offline-l: 27%;
+    --dxp-g-offline-a: 1.0;
+    --dxp-g-warning-h: 33;
+    --dxp-g-warning-s: 100%;
+    --dxp-g-warning-l: 68%;
+    --dxp-g-warning-a: 1.0;
+    --dxp-g-destructive-contrast-h: 0;
+    --dxp-g-destructive-contrast-s: 0%;
+    --dxp-g-destructive-contrast-l: 100%;
+    --dxp-g-destructive-contrast-a: 1.0;
+    --dxp-g-brand-contrast-h: 0;
+    --dxp-g-brand-contrast-s: 0%;
+    --dxp-g-brand-contrast-l: 100%;
+    --dxp-g-brand-contrast-a: 1.0;
+    --dxp-s-tertiary-button-border-color-h: 0;
+    --dxp-s-tertiary-button-border-color-s: 0%;
+    --dxp-s-tertiary-button-border-color-l: 0%;
+    --dxp-s-tertiary-button-border-color-a: 0.0;
+    --dxp-g-destructive-h: 2;
+    --dxp-g-destructive-s: 58%;
+    --dxp-g-destructive-l: 48%;
+    --dxp-g-destructive-a: 1.0;
+    --dxp-g-offline-contrast-h: 0;
+    --dxp-g-offline-contrast-s: 0%;
+    --dxp-g-offline-contrast-l: 100%;
+    --dxp-g-offline-contrast-a: 1.0;
+    --dxp-g-success-h: 146;
+    --dxp-g-success-s: 55%;
+    --dxp-g-success-l: 54%;
+    --dxp-g-success-a: 1.0;
+    --dxp-g-root-contrast-h: 225;
+    --dxp-g-root-contrast-s: 7%;
+    --dxp-g-root-contrast-l: 11%;
+    --dxp-g-root-contrast-a: 1.0;
+    --dxp-s-tertiary-button-color-h: 0;
+    --dxp-s-tertiary-button-color-s: 0%;
+    --dxp-s-tertiary-button-color-l: 0%;
+    --dxp-s-tertiary-button-color-a: 0.0;
+    --dxp-g-success-contrast-h: 0;
+    --dxp-g-success-contrast-s: 0%;
+    --dxp-g-success-contrast-l: 0%;
+    --dxp-g-success-contrast-a: 1.0;
+    --dxp-s-button-color-hover-contrast-h: 0;
+    --dxp-s-button-color-hover-contrast-s: 0%;
+    --dxp-s-button-color-hover-contrast-l: 100%;
+    --dxp-s-button-color-hover-contrast-a: 1.0;
+    --dxp-s-link-text-color-hover-h: 120;
+    --dxp-s-link-text-color-hover-s: 87%;
+    --dxp-s-link-text-color-hover-l: 15%;
+    --dxp-s-link-text-color-hover-a: 1.0;
+    --dxp-g-info-contrast-h: 0;
+    --dxp-g-info-contrast-s: 0%;
+    --dxp-g-info-contrast-l: 100%;
+    --dxp-g-info-contrast-a: 1.0;
+    --dxp-s-link-text-color-h: 120;
+    --dxp-s-link-text-color-s: 65%;
+    --dxp-s-link-text-color-l: 31%;
+    --dxp-s-link-text-color-a: 1.0;
+    --dxp-g-neutral-h: 30;
+    --dxp-g-neutral-s: 5%;
+    --dxp-g-neutral-l: 92%;
+    --dxp-g-neutral-a: 1.0;
+    --dxp-g-neutral-contrast-h: 0;
+    --dxp-g-neutral-contrast-s: 0%;
+    --dxp-g-neutral-contrast-l: 0%;
+    --dxp-g-neutral-contrast-a: 1.0;
+    /* BREAKPOINTS */
+    /* Viewport */
+    --ced-breakpoint-base: 0;
+    --ced-breakpoint-small: 37.5em;
+    --ced-breakpoint-medium: 64em;
+    --ced-breakpoint-large: 90em;
+    /* Content Width */
+    --ced-content-width-small: 26em;
+    --ced-content-width-medium: 37.5em;
+    --ced-content-width-large: 100em;
+    /* BORDER */
+    /*Border Weight*/
+    --ced-border-width: 1px;
+    --ced-border-width-large: 2px;
+    --ced-border-width-xlarge: 4px;
+    /*Border Radius */
+    --ced-border-radius-none: 0;
+    --ced-border-radius-small: .25rem;
+    --ced-border-radius-base: .375rem;
+    --ced-border-radius-base-inner: .25rem;
+    --ced-border-radius-large: .75rem;
+    --ced-border-radius-large-inner: .5rem;
+    --ced-border-radius-full: 50%;
+    /* COLORS */
+    /* Brand - CED */
+    --ced-color-global-brand-1: #222E72;
+    --ced-color-global-brand-2: #5067BE;
+    --ced-color-global-brand-3: #7D8ECF;
+    --ced-color-global-brand-4: #EDEFF7;
+    /* Neutral */
+    --ced-color-global-neutral-1: #212121;
+    --ced-color-global-neutral-2: #6D6E6C;
+    --ced-color-global-neutral-3: #8E908D;
+    --ced-color-global-neutral-4: #CECFCD;
+    --ced-color-global-neutral-5: #F0F0F0;
+    --ced-color-global-neutral-6: #FAFAFA;
+    --ced-color-global-white: #FFF;
+    /* Alpha */
+    --ced-color-global-alpha-neutral-1: rgba(33, 33, 33, 0.66);
+    --ced-color-global-alpha-neutral-2: rgba(33, 33, 33, 0.49);
+    --ced-color-global-alpha-neutral-3: rgba(33, 33, 33, 0.24);
+    --ced-color-global-alpha-neutral-4: rgba(33, 33, 33, 0.07);
+    --ced-color-global-alpha-white-1: rgba(255, 255, 255, 0.75);
+    --ced-color-global-alpha-white-2: rgba(255, 255, 255, 0.50);
+    --ced-color-global-alpha-white-3: rgba(255, 255, 255, 0.25);
+    --ced-color-global-alpha-white-4: rgba(255, 255, 255, 0.10);
+    --ced-color-global-alpha-white-5: rgba(255, 255, 255, 0.05);
+    --ced-color-global-alpha-transparent: rgba(255, 255, 255, 0);
+    /* Danger */
+    --ced-color-global-danger-1: #A91700;
+    --ced-color-global-danger-2: #D34A35;
+    --ced-color-global-danger-3: #FBDBD5;
+    --ced-color-global-danger-4: #F8EEEC;
+    /* Warning */
+    --ced-color-global-warning-1: #8F5300;
+    --ced-color-global-warning-2: #BD8A00;
+    --ced-color-global-warning-3: #FFF7E5;
+    /* Success */
+    --ced-color-global-success-1: #296804;
+    --ced-color-global-success-2: #479915;
+    --ced-color-global-success-3: #EDF2E8;
+    /* Background */
+    --ced-color-background-brand: var(--ced-color-global-brand-2);
+    --ced-color-background-brand-hover: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-focus: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-light: var(--ced-color-global-brand-4);
+    --ced-color-background-brand-light-focus: var(--ced-color-global-brand-3);
+    --ced-color-background-neutral: var(--ced-color-global-neutral-6);
+    --ced-color-background-neutral-hover: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-focus: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark-hover: var(--ced-color-global-neutral-4);
+    --ced-color-background-neutral-dark-focus: var(--ced-color-global-neutral-4);
+    --ced-color-background-transparent: var(--ced-color-global-alpha-transparent);
+    --ced-color-background-transparent-hover: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-focus: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-active: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-backdrop: var(--ced-color-global-alpha-neutral-1);
+    --ced-color-background-danger: var(--ced-color-global-danger-2);
+    --ced-color-background-danger-light: var(--ced-color-global-danger-4);
+    --ced-color-background-warning: var(--ced-color-global-warning-2);
+    --ced-color-background-warning-light: var(--ced-color-global-warning-3);
+    --ced-color-background-success: var(--ced-color-global-success-2);
+    --ced-color-background-success-light: var(--ced-color-global-success-3);
+    /* Border */
+    --ced-color-border-neutral-dark: var(--ced-color-global-neutral-3);
+    --ced-color-border-neutral: var(--ced-color-global-neutral-4);
+    --ced-color-border-neutral-light: var(--ced-color-global-neutral-5);
+    --ced-color-border-brand: var(--ced-color-global-brand-2);
+    --ced-color-border-warning: var(--ced-color-global-warning-2);
+    --ced-color-border-danger: var(--ced-color-global-danger-2);
+    --ced-color-border-success: var(--ced-color-global-success-2);
+    --ced-color-border-transparent: var(--ced-color-global-alpha-transparent);
+    /* Text */
+    --ced-color-text: var(--ced-color-global-neutral-1);
+    --ced-color-text-light: var(--ced-color-global-neutral-2);
+    --ced-color-text-brand: var(--ced-color-global-brand-2);
+    --ced-color-text-brand-dark: var(--ced-color-global-brand-1);
+    --ced-color-text-danger: var(--ced-color-global-danger-1);
+    --ced-color-text-warning: var(--ced-color-global-warning-1);
+    --ced-color-text-success: var(--ced-color-global-success-1);
+    --ced-color-text-inverse: var(--ced-color-global-white);
+    /* Focus Indicator */
+    --ced-focus-indicator-width: .125rem;
+    --ced-focus-indicator-offset-outer: .125rem;
+    --ced-focus-indicator-offset-inner: -.125rem;
+    --ced-color-focus-indicator: var(--ced-color-global-brand-3);
+    --ced-color-focus-indicator-offset: var(--ced-color-global-white);
+    /* Icons */
+    --ced-color-icon-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-neutral-light: var(--ced-color-global-neutral-2);
+    --ced-color-icon-brand: var(--ced-color-global-brand-2);
+    --ced-color-icon-danger: var(--ced-color-global-danger-1);
+    --ced-color-icon-danger-light: var(--ced-color-global-danger-2);
+    --ced-color-icon-warning: var(--ced-color-global-warning-1);
+    --ced-color-icon-warning-light: var(--ced-color-global-warning-2);
+    --ced-color-icon-success: var(--ced-color-global-success-1);
+    --ced-color-icon-success-light: var(--ced-color-global-success-2);
+    --ced-color-icon-inverse: var(--ced-color-global-white);
+    --ced-color-icon-duo-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-duo-brand: var(--ced-color-global-brand-3);
+    /* TYPOGRAPHY */
+    /* Font Family */
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: normal;
+    /* Font Size */
+    --ced-font-size-xxlarge: 28px;
+    --ced-font-size-xlarge: 24px;
+    --ced-font-size-medium: 20px;
+    --ced-font-size-small: 16px;
+    --ced-font-size-xsmall: 14px;
+    --ced-font-size-xxsmall: 12px;
+    /* Font Weight */
+    --ced-font-weight-normal: 400;
+    --ced-font-weight-semi-bold: 600;
+    --ced-font-weight-bold: 700;
+    /* Font Style */
+    --ced-font-style-normal: font-variation-settings: normal;
+    --ced-font-style-italic: font-variation-settings: "slnt" -10;
+    /* Line Height */
+    /* Headings */
+    --ced-line-height-heading-xxlarge: 1.2857142857;
+    --ced-line-height-heading-xlarge: 1.3333333333;
+    --ced-line-height-heading-medium: 1.4;
+    --ced-line-height-heading-small: 1.5;
+    --ced-line-height-heading-xsmall: 1.7142857143;
+    /* Body */
+    --ced-line-height-body: 1.5;
+    --ced-line-height-body-small: 1.7142857143;
+    /* Components */
+    --ced-line-height-component-base: 1;
+    --ced-line-height-component-small: 1.3333333333;
+    --ced-line-height-component-xsmall: 1;
+    /* LINKS */
+    --ced-text-focus-indicator-size: .25ex;
+    --ced-text-link-underline-size: .2ex;
+    /* SHADOWS */
+    /* Drop Shadows */
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+    /* Insert Shadows */
+    --ced-shadow-inset-button: 0px -2px 0px var(--ced-color-global-alpha-white-5, rgba(255, 255, 255, 0.25)) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset;
+    --ced-shadow-inset-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset;
+    --ced-shadow-inset-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+    /* Component */
+    --ced-shadow-button-primary: 0px -2px 0px var(--ced-color-global-alpha-white-3) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-button-neutral: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-select: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-card: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-notification: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-accordion-scoped: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-tooltip: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+    /* Overscroll */
+    --ced-shadow-overscroll-top: 0 -1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 -5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-overscroll-bottom: 0 1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+    /* Utility */
+    --ced-shadow-base-none: none;
+    --ced-shadow-base-small: 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-medium: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-large: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+    /* SPACING */
+    --ced-spacing-none: 0rem;
+    --ced-spacing-xxsmall: .25rem;
+    --ced-spacing-xsmall: .5rem;
+    --ced-spacing-small: .75rem;
+    --ced-spacing-medium: 1rem;
+    --ced-spacing-large: 1.5rem;
+    --ced-spacing-xlarge: 2rem;
+    --ced-spacing-xxlarge: 2.5rem;
+    /* MOTION */
+    /* Transition */
+    --ced-transition-hover: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-overlay: 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-slide: 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+
+}
+
+.allphase
+{
+     /* BREAKPOINTS */
+
+    /* Viewport */
+    --ced-breakpoint-base: 0;
+    --ced-breakpoint-small: 37.5em;
+    --ced-breakpoint-medium: 64em;
+    --ced-breakpoint-large: 90em;
+
+    /* Content Width */
+    --ced-content-width-small: 26em;
+    --ced-content-width-medium: 37.5em;
+    --ced-content-width-large: 100em;
+
+    /* BORDER */
+
+    /*Border Weight*/
+    --ced-border-width: 1px;
+    --ced-border-width-large: 2px;
+    --ced-border-width-xlarge: 4px;
+
+    /*Border Radius */
+    --ced-border-radius-none: 0;
+    --ced-border-radius-small: .25rem;
+    --ced-border-radius-base: .375rem;
+    --ced-border-radius-base-inner: .25rem;
+    --ced-border-radius-large: .75rem;
+    --ced-border-radius-large-inner: .5rem;
+    --ced-border-radius-full: 50%;
+
+    /* COLORS */
+
+    /* Brand - All-Phase */
+    --ced-color-global-brand-1: #6B2A1F;
+    --ced-color-global-brand-2: #BA4A36;
+    --ced-color-global-brand-3: #D27565;
+    --ced-color-global-brand-4: #F8ECEC;
+
+    /* Neutral */
+    --ced-color-global-neutral-1: #212121;
+    --ced-color-global-neutral-2: #6D6E6C;
+    --ced-color-global-neutral-3: #8E908D;
+    --ced-color-global-neutral-4: #CECFCD;
+    --ced-color-global-neutral-5: #F0F0F0;
+    --ced-color-global-neutral-6: #FAFAFA;
+    --ced-color-global-white: #FFF;
+
+    /* Alpha */
+    --ced-color-global-alpha-neutral-1: rgba(33, 33, 33, 0.66);
+    --ced-color-global-alpha-neutral-2: rgba(33, 33, 33, 0.49);
+    --ced-color-global-alpha-neutral-3: rgba(33, 33, 33, 0.24);
+    --ced-color-global-alpha-neutral-4: rgba(33, 33, 33, 0.07);
+    --ced-color-global-alpha-white-1: rgba(255, 255, 255, 0.75);
+    --ced-color-global-alpha-white-2: rgba(255, 255, 255, 0.50);
+    --ced-color-global-alpha-white-3: rgba(255, 255, 255, 0.25);
+    --ced-color-global-alpha-white-4: rgba(255, 255, 255, 0.10);
+    --ced-color-global-alpha-white-5: rgba(255, 255, 255, 0.05);
+    --ced-color-global-alpha-transparent: rgba(255, 255, 255, 0);
+
+    /* Danger */
+    --ced-color-global-danger-1: #A91700;
+    --ced-color-global-danger-2: #D34A35;
+    --ced-color-global-danger-3: #FBDBD5;
+    --ced-color-global-danger-4: #F8EEEC;
+
+    /* Warning */
+    --ced-color-global-warning-1: #8F5300;
+    --ced-color-global-warning-2: #BD8A00;
+    --ced-color-global-warning-3: #FFF7E5;
+
+    /* Success */
+    --ced-color-global-success-1: #296804;
+    --ced-color-global-success-2: #479915;
+    --ced-color-global-success-3: #EDF2E8;
+
+    /* Background */
+    --ced-color-background-brand: var(--ced-color-global-brand-2);
+    --ced-color-background-brand-hover: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-focus: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-light: var(--ced-color-global-brand-4);
+    --ced-color-background-brand-light-focus: var(--ced-color-global-brand-3);
+    --ced-color-background-neutral: var(--ced-color-global-neutral-6);
+    --ced-color-background-neutral-hover: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-focus: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark-hover: var(--ced-color-global-neutral-4);
+    --ced-color-background-neutral-dark-focus: var(--ced-color-global-neutral-4);
+    --ced-color-background-transparent: var(--ced-color-global-alpha-transparent);
+    --ced-color-background-transparent-hover: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-focus: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-active: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-backdrop: var(--ced-color-global-alpha-neutral-1);
+    --ced-color-background-danger: var(--ced-color-global-danger-2);
+    --ced-color-background-danger-light: var(--ced-color-global-danger-4);
+    --ced-color-background-warning: var(--ced-color-global-warning-2);
+    --ced-color-background-warning-light: var(--ced-color-global-warning-3);
+    --ced-color-background-success: var(--ced-color-global-success-2);
+    --ced-color-background-success-light: var(--ced-color-global-success-3);
+
+    /* Border */
+    --ced-color-border-neutral-dark: var(--ced-color-global-neutral-3);
+    --ced-color-border-neutral: var(--ced-color-global-neutral-4);
+    --ced-color-border-neutral-light: var(--ced-color-global-neutral-5);
+    --ced-color-border-brand: var(--ced-color-global-brand-2);
+    --ced-color-border-warning: var(--ced-color-global-warning-2);
+    --ced-color-border-danger: var(--ced-color-global-danger-2);
+    --ced-color-border-success: var(--ced-color-global-success-2);
+    --ced-color-border-transparent: var(--ced-color-global-alpha-transparent);
+
+    /* Text */
+    --ced-color-text: var(--ced-color-global-neutral-1);
+    --ced-color-text-light: var(--ced-color-global-neutral-2);
+    --ced-color-text-brand: var(--ced-color-global-brand-2);
+    --ced-color-text-brand-dark: var(--ced-color-global-brand-1);
+    --ced-color-text-danger: var(--ced-color-global-danger-1);
+    --ced-color-text-warning: var(--ced-color-global-warning-1);
+    --ced-color-text-success: var(--ced-color-global-sucess-1);
+    --ced-color-text-inverse: var(--ced-color-global-white);
+
+    /* Focus Indicator */
+    --ced-focus-indicator-width: .125rem;
+    --ced-focus-indicator-offset-outer:.125rem;
+    --ced-focus-indicator-offset-inner: -.125rem;
+    --ced-color-focus-indicator: var(--ced-color-global-brand-3);
+    --ced-color-focus-indicator-offset: var(--ced-color-global-white);
+
+    /* Icons */
+    --ced-color-icon-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-neutral-light: var(--ced-color-global-neutral-2);
+    --ced-color-icon-brand: var(--ced-color-global-brand-2);
+    --ced-color-icon-danger: var(--ced-color-global-danger-1);
+    --ced-color-icon-danger-light: var(--ced-color-global-danger-2);
+    --ced-color-icon-warning: var(--ced-color-global-warning-1);
+    --ced-color-icon-warning-light: var(--ced-color-global-warning-2);
+    --ced-color-icon-success: var(--ced-color-global-success-1);
+    --ced-color-icon-success-light: var(--ced-color-global-success-2);
+    --ced-color-icon-inverse: var(--ced-color-global-white);
+    --ced-color-icon-duo-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-duo-brand: var(--ced-color-global-brand-3);
+
+    /* TYPOGRAPHY */
+
+    /* Font Family */
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: normal;
+    --ced-font-family-normal: 400;
+    --ced-font-family-semi-bold: 600;
+    --ced-font-family-bold: 700;
+
+    /* Font Size */
+    --ced-font-size-xxlarge: 28px;
+    --ced-font-size-xlarge: 24px;
+    --ced-font-size-medium: 20px;
+    --ced-font-size-small: 16px;
+    --ced-font-size-xsmall: 14px;
+    --ced-font-size-xxsmall: 12px;
+
+    /* Font Weight */
+    --ced-font-weight-normal: 400;
+    --ced-font-weight-semi-bold: 600;
+    --ced-font-bold: 700;
+
+    /* Line Height */
+
+    /* Headings */
+    --ced-line-height-heading-xxlarge: 1.2857142857;
+    --ced-line-height-heading-xlarge: 1.3333333333;
+    --ced-line-height-heading-medium: 1.4;
+    --ced-line-height-heading-small: 1.5;
+    --ced-line-height-heading-xsmall: 1.7142857143;
+
+    /* Body */
+    --ced-line-height-body: 1.5;
+    --ced-line-height-body-small: 1.7142857143;
+
+    /* Components */
+    --ced-line-height-component-base: 1;
+    --ced-line-height-component-small: 1.3333333333;
+    --ced-line-height-component-xsmall: 1;
+
+    /* LINKS */
+    --ced-text-focus-indicator-size: .25ex;
+    --ced-text-link-underline-size: .2ex;
+
+    /* SHADOWS */
+
+    /* Drop Shadows */
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+
+    /* Insert Shadows */
+    --ced-shadow-inset-button: 0px -2px 0px var(--ced-color-global-alpha-white-5, rgba(255, 255, 255, 0.25)) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset;
+    --ced-shadow-inset-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset;
+    --ced-shadow-inset-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+
+    /* Component */
+    --ced-shadow-button-primary: 0px -2px 0px var(--ced-color-global-alpha-white-3) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-button-neutral: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-select: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-card: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-notification: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-accordion-scoped: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-tooltip: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+
+    /* Overscroll */
+    --ced-shadow-overscroll-top: 0 -1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 -5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-overscroll-bottom: 0 1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+
+    /* Utility */
+    --ced-shadow-base-none: none;
+    --ced-shadow-base-small: 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-medium: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-large: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+
+    /* SPACING */
+    --ced-spacing-none: 0rem;
+    --ced-spacing-xxsmall: .25rem;
+    --ced-spacing-xsmall: .5rem;
+    --ced-spacing-small: .75rem;
+    --ced-spacing-medium: 1rem;
+    --ced-spacing-large: 1.5rem;
+    --ced-spacing-xlarge: 2rem;
+    --ced-spacing-xxlarge: 2.5rem;
+
+    /* MOTION */
+
+    /* Transition */
+    --ced-transition-hover: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-overlay: 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-slide: 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.greentech
+{
+     /* BREAKPOINTS */
+
+    /* Viewport */
+    --ced-breakpoint-base: 0;
+    --ced-breakpoint-small: 37.5em;
+    --ced-breakpoint-medium: 64em;
+    --ced-breakpoint-large: 90em;
+
+    /* Content Width */
+    --ced-content-width-small: 26em;
+    --ced-content-width-medium: 37.5em;
+    --ced-content-width-large: 100em;
+
+    /* BORDER */
+
+    /*Border Weight*/
+    --ced-border-width: 1px;
+    --ced-border-width-large: 2px;
+    --ced-border-width-xlarge: 4px;
+
+    /*Border Radius */
+    --ced-border-radius-none: 0;
+    --ced-border-radius-small: .25rem;
+    --ced-border-radius-base: .375rem;
+    --ced-border-radius-base-inner: .25rem;
+    --ced-border-radius-large: .75rem;
+    --ced-border-radius-large-inner: .5rem;
+    --ced-border-radius-full: 50%;
+
+    /* COLORS */
+
+    /* Brand - Greentech Renewables */
+    --ced-color-global-brand-1: #054805;
+    --ced-color-global-brand-2: #1C821C;
+    --ced-color-global-brand-3: #4C9C4C;
+    --ced-color-global-brand-4: #F2F8F2;
+
+    /* Neutral */
+    --ced-color-global-neutral-1: #212121;
+    --ced-color-global-neutral-2: #6D6E6C;
+    --ced-color-global-neutral-3: #8E908D;
+    --ced-color-global-neutral-4: #CECFCD;
+    --ced-color-global-neutral-5: #F0F0F0;
+    --ced-color-global-neutral-6: #FAFAFA;
+    --ced-color-global-white: #FFF;
+
+    /* Alpha */
+    --ced-color-global-alpha-neutral-1: rgba(33, 33, 33, 0.66);
+    --ced-color-global-alpha-neutral-2: rgba(33, 33, 33, 0.49);
+    --ced-color-global-alpha-neutral-3: rgba(33, 33, 33, 0.24);
+    --ced-color-global-alpha-neutral-4: rgba(33, 33, 33, 0.07);
+    --ced-color-global-alpha-white-1: rgba(255, 255, 255, 0.75);
+    --ced-color-global-alpha-white-2: rgba(255, 255, 255, 0.50);
+    --ced-color-global-alpha-white-3: rgba(255, 255, 255, 0.25);
+    --ced-color-global-alpha-white-4: rgba(255, 255, 255, 0.10);
+    --ced-color-global-alpha-white-5: rgba(255, 255, 255, 0.05);
+    --ced-color-global-alpha-transparent: rgba(255, 255, 255, 0);
+
+    /* Danger */
+    --ced-color-global-danger-1: #A91700;
+    --ced-color-global-danger-2: #D34A35;
+    --ced-color-global-danger-3: #FBDBD5;
+    --ced-color-global-danger-4: #F8EEEC;
+
+    /* Warning */
+    --ced-color-global-warning-1: #8F5300;
+    --ced-color-global-warning-2: #BD8A00;
+    --ced-color-global-warning-3: #FFF7E5;
+
+    /* Success */
+    --ced-color-global-success-1: #296804;
+    --ced-color-global-success-2: #479915;
+    --ced-color-global-success-3: #EDF2E8;
+
+    /* Background */
+    --ced-color-background-brand: var(--ced-color-global-brand-2);
+    --ced-color-background-brand-hover: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-focus: var(--ced-color-global-brand-1);
+    --ced-color-background-brand-light: var(--ced-color-global-brand-4);
+    --ced-color-background-brand-light-focus: var(--ced-color-global-brand-3);
+    --ced-color-background-neutral: var(--ced-color-global-neutral-6);
+    --ced-color-background-neutral-hover: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-focus: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark: var(--ced-color-global-neutral-5);
+    --ced-color-background-neutral-dark-hover: var(--ced-color-global-neutral-4);
+    --ced-color-background-neutral-dark-focus: var(--ced-color-global-neutral-4);
+    --ced-color-background-transparent: var(--ced-color-global-alpha-transparent);
+    --ced-color-background-transparent-hover: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-focus: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-transparent-active: var(--ced-color-global-alpha-neutral-4);
+    --ced-color-background-backdrop: var(--ced-color-global-alpha-neutral-1);
+    --ced-color-background-danger: var(--ced-color-global-danger-2);
+    --ced-color-background-danger-light: var(--ced-color-global-danger-4);
+    --ced-color-background-warning: var(--ced-color-global-warning-2);
+    --ced-color-background-warning-light: var(--ced-color-global-warning-3);
+    --ced-color-background-success: var(--ced-color-global-success-2);
+    --ced-color-background-success-light: var(--ced-color-global-success-3);
+
+    /* Border */
+    --ced-color-border-neutral-dark: var(--ced-color-global-neutral-3);
+    --ced-color-border-neutral: var(--ced-color-global-neutral-4);
+    --ced-color-border-neutral-light: var(--ced-color-global-neutral-5);
+    --ced-color-border-brand: var(--ced-color-global-brand-2);
+    --ced-color-border-warning: var(--ced-color-global-warning-2);
+    --ced-color-border-danger: var(--ced-color-global-danger-2);
+    --ced-color-border-success: var(--ced-color-global-success-2);
+    --ced-color-border-transparent: var(--ced-color-global-alpha-transparent);
+
+    /* Text */
+    --ced-color-text: var(--ced-color-global-neutral-1);
+    --ced-color-text-light: var(--ced-color-global-neutral-2);
+    --ced-color-text-brand: var(--ced-color-global-brand-2);
+    --ced-color-text-brand-dark: var(--ced-color-global-brand-1);
+    --ced-color-text-danger: var(--ced-color-global-danger-1);
+    --ced-color-text-warning: var(--ced-color-global-warning-1);
+    --ced-color-text-success: var(--ced-color-global-success-1);
+    --ced-color-text-inverse: var(--ced-color-global-white);
+
+    /* Focus Indicator */
+    --ced-focus-indicator-width: .125rem;
+    --ced-focus-indicator-offset-outer:.125rem;
+    --ced-focus-indicator-offset-inner: -.125rem;
+    --ced-color-focus-indicator: var(--ced-color-global-brand-3);
+    --ced-color-focus-indicator-offset: var(--ced-color-global-white);
+
+    /* Icons */
+    --ced-color-icon-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-neutral-light: var(--ced-color-global-neutral-2);
+    --ced-color-icon-brand: var(--ced-color-global-brand-2);
+    --ced-color-icon-danger: var(--ced-color-global-danger-1);
+    --ced-color-icon-danger-light: var(--ced-color-global-danger-2);
+    --ced-color-icon-warning: var(--ced-color-global-warning-1);
+    --ced-color-icon-warning-light: var(--ced-color-global-warning-2);
+    --ced-color-icon-success: var(--ced-color-global-success-1);
+    --ced-color-icon-success-light: var(--ced-color-global-success-2);
+    --ced-color-icon-inverse: var(--ced-color-global-white);
+    --ced-color-icon-duo-neutral: var(--ced-color-global-neutral-1);
+    --ced-color-icon-duo-brand: var(--ced-color-global-brand-3);
+
+    /* TYPOGRAPHY */
+
+    /* Font Family */
+    font-family: 'Inter', sans-serif;
+    font-variation-settings: normal;
+    --ced-font-family-normal: 400;
+    --ced-font-family-semi-bold: 600;
+    --ced-font-family-bold: 700;
+
+    /* Font Size */
+    --ced-font-size-xxlarge: 28px;
+    --ced-font-size-xlarge: 24px;
+    --ced-font-size-medium: 20px;
+    --ced-font-size-small: .875rem;
+    --ced-font-size-xsmall: .75rem;
+    --ced-font-size-xxsmall: 12px;
+
+    /* Font Weight */
+    --ced-font-weight-normal: 400;
+    --ced-font-weight-semi-bold: 600;
+    --ced-font-weight-bold: 700;
+    --ced-font-bold: var(--ced-font-weight-bold);
+
+    /* Line Height */
+
+    /* Headings */
+    --ced-line-height-heading-xxlarge: 1.2857142857;
+    --ced-line-height-heading-xlarge: 1.3333333333;
+    --ced-line-height-heading-medium: 1.4;
+    --ced-line-height-heading-small: 1.5;
+    --ced-line-height-heading-xsmall: 1.7142857143;
+
+    /* Body */
+    --ced-line-height-body: 1.5;
+    --ced-line-height-body-small: 1.7142857143;
+
+    /* Components */
+    --ced-line-height-component-base: 1;
+    --ced-line-height-component-small: 1.3333333333;
+    --ced-line-height-component-xsmall: 1;
+
+    /* LINKS */
+    --ced-text-focus-indicator-size: .25ex;
+    --ced-text-link-underline-size: .2ex;
+
+    /* SHADOWS */
+
+    /* Drop Shadows */
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+
+    /* Insert Shadows */
+    --ced-shadow-inset-button: 0px -2px 0px var(--ced-color-global-alpha-white-5, rgba(255, 255, 255, 0.25)) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset;
+    --ced-shadow-inset-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset;
+    --ced-shadow-inset-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+
+    /* Component */
+    --ced-shadow-button-primary: 0px -2px 0px var(--ced-color-global-alpha-white-3) inset, 0px -1px 0px var(--ced-color-global-brand-1) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-button-neutral: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-input: 0px 2px 1px var(--ced-color-global-alpha-neutral-4) inset, 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-select: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-card: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-notification: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-accordion-scoped: 0px -2px 0px var(--ced-color-global-white) inset, 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-dropdown: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-tooltip: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-modal: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-well: 0px 2px 0px var(--ced-color-global-alpha-neutral-4) inset;
+
+    /* Overscroll */
+    --ced-shadow-overscroll-top: 0 -1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 -5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-overscroll-bottom: 0 1px 1px -1px var(--ced-color-global-alpha-neutral-4), 0 5px 6px -4px var(--ced-color-global-alpha-neutral-4);
+
+    /* Utility */
+    --ced-shadow-base-none: none;
+    --ced-shadow-base-small: 0px 3px 6px -2px var(--ced-color-global-alpha-neutral-4), 0px 1px 2px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-medium: 0px 6px 16px var(--ced-color-global-alpha-neutral-4), 0px 0px 6px var(--ced-color-global-alpha-neutral-4);
+    --ced-shadow-base-large: 0px 4px 32px var(--ced-color-global-alpha-neutral-3), 0px 2px 8px -1px var(--ced-color-global-alpha-neutral-3), 0px 0px 4px -1px var(--ced-color-global-alpha-neutral-4);
+
+
+    /* SPACING */
+    --ced-spacing-none: 0rem;
+    --ced-spacing-xxsmall: .25rem;
+    --ced-spacing-xsmall: .5rem;
+    --ced-spacing-small: .75rem;
+    --ced-spacing-medium: 1rem;
+    --ced-spacing-large: 1.5rem;
+    --ced-spacing-xlarge: 2rem;
+    --ced-spacing-xxlarge: 2.5rem;
+
+    /* MOTION */
+
+    /* Transition */
+    --ced-transition-hover: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-overlay: 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    --ced-transition-slide: 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+
+body {
+    font-family: var(--dxp-s-body-font-family) !important;
+    font-size: var(--dxp-s-body-font-size, var(--dxp-g-font-size-3)) !important;
+    font-style: var(--dxp-s-body-font-style)!important;
+    font-weight: var(--dxp-s-body-font-weight);
+    text-decoration: var(--dxp-s-body-text-decoration)!important;
+    text-transform: var(--dxp-s-body-text-transform)!important;
+    line-height: var(--dxp-s-body-line-height)!important;
+    letter-spacing: var(--dxp-s-body-letter-spacing)!important;
+    background: var(--dxp-g-root)!important;
+}
+
+button.isnbutton
+{
+    position: relative !important;
+    box-sizing: border-box !important;
+    text-align: center !important ;
+    letter-spacing: 0.3px !important ;;
+    border-radius: var(--ced-border-radius-base) !important;
+    box-shadow: var(--ced-shadow-button-primary) !important;
+    background-color: var(--ced-color-global-brand-2) !important;
+    color: var(--ced-color-text-inverse) !important;
+    font-weight: var(--ced-font-weight-semi-bold) !important;
+    font-size: var(--ced-font-size-small) !important;
+    -webkit-transition: background var(--ced-transition-hover) !important;
+    transition: background var(--ced-transition-hover) !important;
+    cursor: pointer !important;
+    margin-right: 8px !important;
+}
+
+
+button.gt
+{
+    position: relative !important;
+    box-sizing: border-box !important;
+    text-align: center !important ;
+    letter-spacing: 0.3px !important ;;
+    border-radius: var(--ced-border-radius-base) !important;
+    box-shadow: var(--ced-shadow-button-primary) !important;
+    background-color: var(--ced-color-global-brand-2) !important;
+    color: var(--ced-color-text-inverse) !important;
+    font-weight: var(--ced-font-weight-semi-bold) !important;
+    font-size: var(--ced-font-size-small) !important;
+    -webkit-transition: background var(--ced-transition-hover) !important;
+    transition: background var(--ced-transition-hover) !important;
+    cursor: pointer !important;
+    margin-right: 8px !important;
+}
+
+/* CenteredComponent.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+  

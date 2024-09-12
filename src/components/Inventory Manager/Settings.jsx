@@ -64,7 +64,7 @@ const IvMSettings = () => {
 
 
     return (
-        <Box sx={{ overflow: 'hidden',p:1 }}>
+        <Box sx={{ overflow: 'hidden',p:1,height:"200vh" }}>
             <Typography variant="h4" component="h1" gutterBottom className='content-header-text'>
                 Inventory Manager Settings
             </Typography>

@@ -7,7 +7,13 @@
 }
 
 
-
+.modalheader{
+    margin-bottom: var(--ced-spacing-medium);
+    font-weight: var(--ced-font-weight-semi-bold) !important;
+    font-size: var(--ced-font-size-xlarge) !important;
+    line-height: var(--ced-line-height-heading-xlarge);
+    letter-spacing: 0.3px;
+}
 
 
 html, body {

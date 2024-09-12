@@ -8,20 +8,30 @@ import PurchaseHistory from '../components/Inventory Manager/PurchaseHistory';
 import ViewInventory from '../components/Inventory Manager/ViewInventory';
 import IvMSettings from '../components/Inventory Manager/Settings';
 
+import ThemeSelector from '../Theme/ThemeSelector';
+import { CustomThemeProvider } from '../Theme/CustomThemeProvider';
+
 const Routing = () => {
+  
   return (
+   
+    <CustomThemeProvider >
     <Router>
       <Routes>
-      <Route path="/" element={<Navigate to="/settings" />} />
+      <Route path="/" element={<ThemeSelector />} />
+      {/* <Route path="/" element={<Navigate to="/settings" />} /> */}
         <Route path="/" element={<MasterLayout />}>
           <Route path="inventory" element={<ViewInventory />} />
           <Route path="cycle-count" element={<CycleCount/>} />
           <Route path="transaction-history" element={<TransactionHistory />} />
           <Route path="purchase-history" element={<PurchaseHistory/>} />
           <Route path="settings" element={<IvMSettings />} />
+
+          <Route path="logout" element={<Navigate to="/" />} />
         </Route>
       </Routes>
     </Router>
+    </CustomThemeProvider>
   )
 }
 

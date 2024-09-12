@@ -16,8 +16,12 @@ import CustomTextField from '../Controls/CustomTextField';
 import CustomFormControl from '../Controls/CustomFormControl ';
 import CustomPrimaryButton from '../Controls/CustomPrimaryButton';
 import CustomSecondaryButton from '../Controls/CustomSecondaryButton';
+import { useTheme } from '../Theme/CustomThemeProvider';
+import { Bolt } from '@mui/icons-material';
+
 
 const AddInventoryModal = ({ open, handleClose }) => {
+    const { theme } = useTheme();
     const [state, setState] = React.useState(''); // State dropdown value
 
     const handleStateChange = (event) => {
@@ -35,7 +39,7 @@ const AddInventoryModal = ({ open, handleClose }) => {
         boxShadow: 24,
         p: 4,
         mt:"5%",
-        mb:"10%"
+        mb:"15%"
 
     };
 
@@ -52,10 +56,11 @@ const AddInventoryModal = ({ open, handleClose }) => {
 
             }}
         >
+             <div className={`${theme}`} > 
             <Box sx={style}>
                 {/* Header */}
                 <Box display="flex" justifyContent="space-between" alignItems="center">
-                    <Typography variant="h6">Add Inventory</Typography>
+                <Typography variant="body1" className='modalheader' sx={{fontWeight:"bold"}} component="h4">Add Inventory</Typography>
                     <IconButton onClick={handleClose}>
                         <CloseIcon />
                     </IconButton>
@@ -173,6 +178,7 @@ const AddInventoryModal = ({ open, handleClose }) => {
                     </Box>
                 </Box>
             </Box>
+            </div>
         </Modal>
     );
 };
