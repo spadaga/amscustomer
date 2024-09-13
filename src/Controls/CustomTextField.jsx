@@ -18,7 +18,7 @@ const CustomTextField = styled(TextField)({
         '&:focus-visible': {
             outline: '2px solid var(--ced-color-global-white) !important', // Focus outline
             boxShadow: '0px 0px 0px 4px var(--ced-color-global-brand-3) !important', // Focus shadow
-            border: "var(--ced-border-width) solid var(--ced-color-global-neutral-3)  !Important",
+            border: "var(--ced-border-width) solid var(--ced-color-global-neutral-3)  ",
         },
     },
 

@@ -2291,7 +2291,7 @@ input-error {
 }
 
 .required-field {
-    border: 2px solid var(--ced-color-global-danger-2) !important;
+    /* border: 2px solid var(--ced-color-global-danger-2) !important; */
 }
 
 .toast-header.bg-success.text-white {

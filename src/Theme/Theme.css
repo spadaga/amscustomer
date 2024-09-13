@@ -1121,4 +1121,85 @@ button.gt
     padding: 10px 20px;
     font-size: 1em;
   }
+  /* .Mui-error {
+    border-color: red !important;
+  } */
+
+  /* .required-field {
+    border: 2px solid var(--ced-color-global-danger-2) !important;
+} */
+.selecterror .MuiSelect-select 
+{
+/* border: 1px solid red !important;
+border-radius: 4px !important;
+margin: 0px;
+box-shadow: 1px solid red !important;
+outline: 1px solid red !important; */
+}
+
+.selecterror div{
+  border-color: red !important;
+    /* border-radius: 4px !important; */
+    /* margin: 0px; */
+    box-shadow: 1px solid red !important;
+    outline-color:  2px solid red !important
+}
+
+
+.required-field input {
+    border: 1px solid red !important;
+    border-radius: 4px !important;
+    margin: 2px;
+  }
+  .error-text
+  {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: red;
+    margin: 0;
+    padding: 0;
+   
+    gap: 8px;
+
+  }
+  .selecterror 
+  {
+      border: none !important;
+      outline: none  !important;
+      box-shadow: none !important;
+      
+  }
+
+  .selecterror .MuiInputBase-root:focus-visible
+  {
+    border: none !important;
+    border-radius: var(--ced-border-radius-base);
+    outline: 2px solid var(--ced-color-global-brand-3) !important;
+  }
+  .selecterror .MuiOutlinedInput-input:focus-visible
+  {
+      border: none !important;
+      outline: 1px solid red !important;
+      margin: 3px -1px;
+  }
+
+  .selecterror .Mui-focused{ 
+   
+          border-color: red !important
+}
   
+  /* .required-field .MuiOutlinedInput-notchedOutline {
+    border-color: red;
+  } */
+
+  /* .required-field input, .Mui-error + input , .Mui-error  input, .Mui-error >  input{
+    border: 1px solid red !important;
+    border-radius: 4px !important;
+    margin: 2px;
+  }
+.required-field input, .Mui-error + input , .Mui-error  input, .Mui-error >  input{
+    border: 1px solid red !important;
+    border-radius: 4px !important;
+    margin: 2px;
+  } */

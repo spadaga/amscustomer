@@ -8,11 +8,57 @@ import CustomTextField from '../../Controls/CustomTextField';
 import CustomFormControl from '../../Controls/CustomFormControl ';
 import CustomPrimaryButton from '../../Controls/CustomPrimaryButton';
 import CustomSecondaryButton from '../../Controls/CustomSecondaryButton';
+import { Error } from '@mui/icons-material';
 
 
 const IvMSettings = () => {
     const [tabledata, settabledata] = useState([]);
     const [openModal, setOpenModal] = useState(false);
+
+    const [formData, setFormData] = useState({
+        addressLine1: '',
+        addressLine2: '',
+        city: '',
+        state: '',
+        zip: '',
+        email: '',
+      });
+
+      const [errors, setErrors] = useState({});
+
+
+      const handleChange = (e) => {
+        console.log(e.target)
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    
+        // Remove error when value exists
+
+       
+
+        if (value && (name !== 'state' || value !== '0')) {
+          setErrors((prevErrors) => ({ ...prevErrors, [name]: false }));
+        }
+        if (value && (name == 'state' && value == '0')) {
+            setErrors((prevErrors) => ({ ...prevErrors, [name]: true }));
+          }
+        else if (!value )
+        {
+            setErrors((prevErrors) => ({ ...prevErrors, [name]: true }));
+        }
+
+        if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
+            //newErrors.email = 'Email id is incorrect';
+            setErrors((prevErrors) => ({ ...prevErrors, [name]: true }));
+           }
+           else if(formData.email && /\S+@\S+\.\S+/.test(formData.email)) {
+             setErrors((prevErrors) => ({ ...prevErrors, [name]: false }));
+ 
+           }
+
+        
+      };
+
     const handleOpen = () => {
 
 
@@ -26,6 +72,22 @@ const IvMSettings = () => {
     const handleClose = () => {
         setOpenModal(false);
         document.body.style.overflow = 'auto';
+    };
+
+
+    const handleSubmit = () => {
+       
+        const newErrors = {};
+        Object.keys(formData).forEach((key) => {
+          if (!formData[key] || (key === 'state' && formData[key] === '0')) {
+            newErrors[key] = true;
+          }
+        });
+         // Additional email validation
+    if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
+        newErrors.email = 'Email id is incorrect';
+      }
+        setErrors(newErrors);
     };
     const parentStyle = {
         height: '100vh', // Full viewport height
@@ -61,10 +123,11 @@ const IvMSettings = () => {
         }
     }, []);
 
+  
 
 
     return (
-        <Box sx={{ overflow: 'hidden',p:1,height:"200vh" }}>
+        <Box sx={{ overflow: 'hidden',p:1, }}>
             <Typography variant="h4" component="h1" gutterBottom className='content-header-text'>
                 Inventory Manager Settings
             </Typography>
@@ -124,11 +187,16 @@ const IvMSettings = () => {
                 {/* Label and Textbox 1 */}
                 <Box>
                     <Typography variant="body1" sx={{ marginBottom: '5px' }}>
-                        Textbox 1 Label
+                      Address Line1
                     </Typography>
                     <CustomTextField
                         variant="outlined"
+                        name="addressLine1"
                         fullWidth
+                        onChange={handleChange}
+                        error={!!errors.addressLine1} 
+                        //  helperText={errors.addressLine1 ? 'Required' : ''}
+                         className={errors.addressLine1 ? 'required-field' : ''}
                         InputProps={{
                             // Disable the fieldset border
                             notched: false,
@@ -140,10 +208,17 @@ const IvMSettings = () => {
                 {/* Label and Textbox 2 */}
                 <Box>
                     <Typography variant="body1" sx={{ marginBottom: '5px' }}>
-                        Textbox 2 Label
+                        Address Line 2
                     </Typography>
                     <CustomTextField
                         variant="outlined"
+                        name="addressLine2"
+                        onChange={handleChange}
+                        error={!!errors.addressLine1}
+                     
+                        value={formData.addressLine2}
+                        // helperText={errors.addressLine2 ? 'Required' : ''}
+                        className={errors.addressLine2 ? 'required-field' : ''}
                         fullWidth
                         InputProps={{
                             // Disable the fieldset border
@@ -162,6 +237,12 @@ const IvMSettings = () => {
                         </Typography>
                         <CustomTextField
                             variant="outlined"
+                            name="city"
+                            onChange={handleChange}
+                            error={!!errors.city}
+                            value={formData.city}
+                            // helperText={errors.city ? 'Required' : ''}
+                            className={errors.city ? 'required-field' : ''}
                             fullWidth
                             InputProps={{
                                 // Disable the fieldset border
@@ -176,8 +257,26 @@ const IvMSettings = () => {
                         <Typography variant="body1" sx={{ marginBottom: '5px' }}>
                             State
                         </Typography>
-                        <CustomFormControl fullWidth>
-                            <Select variant="outlined" defaultValue="">
+                        <CustomFormControl fullWidth 
+                       
+                        
+                        error={!!errors.state}
+
+                        // sx={{
+                        //     '& .MuiOutlinedInput-root': {
+                        //       border: errors ? '1px solid red' : '',
+                        //       '&.Mui-focused ': {
+                        //         borderColor: errors ? 'red' : '2px solid black',
+                        //       },
+                        //     }
+                        //   }}
+                        
+                        // helperText={errors.state ? 'Required' : ''}
+                        className={errors.state==true ? 'required-field selecterror' : ''} 
+                        
+                        >
+                            <Select variant="outlined"  name="state" value={formData.state} defaultValue="" onChange={handleChange}>
+                            <MenuItem value="0">SELECT</MenuItem>
                                 <MenuItem value="CA">California</MenuItem>
                                 <MenuItem value="TX">Texas</MenuItem>
                                 <MenuItem value="NY">New York</MenuItem>
@@ -193,7 +292,13 @@ const IvMSettings = () => {
                         </Typography>
                         <CustomTextField
                             variant="outlined"
+                            name="zip"
+                            onChange={handleChange}
                             fullWidth
+                            error={!!errors.zip}
+                            value={formData.zip}
+                            // helperText={errors.zip ? 'Required' : ''}
+                            className={errors.zip ? 'required-field' : ''}
                             InputProps={{
                                 // Disable the fieldset border
                                 notched: false,
@@ -221,10 +326,17 @@ const IvMSettings = () => {
                 </Typography>
 
                 {/* Simple Textbox for Email */}
+                <Box className="input-container">
+                {errors.email && <p className="error-text"><Error /> Email Id is Incorrect {errors.email}</p>}
                 <CustomTextField
                     variant="outlined"
+                     name="email"
                     fullWidth
+                    onChange={handleChange}
+                    value={formData.email}
                     placeholder="Enter email address"
+                    //  helperText={errors.email ? 'Email Id is Incorrect' : ''}
+                     className={errors.email ? 'required-field emailerror' : ''}
                     InputProps={{
                         // Disable the fieldset border
                         notched: false,
@@ -232,6 +344,7 @@ const IvMSettings = () => {
                       }}
                     sx={{ marginBottom: '20px' }}
                 />
+                </Box>
 
                 {/* Buttons */}
                 <Box sx={{ display: 'flex', gap: '20px' }}>
@@ -240,6 +353,7 @@ const IvMSettings = () => {
                         variant="contained"
                         color="primary"
                         sx={{ flex: 1 }}
+                        onClick={handleSubmit}
                     >
                         Save Changes
                     </CustomPrimaryButton>
