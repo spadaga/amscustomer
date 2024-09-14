@@ -3,6 +3,7 @@ import { Navigate, NavLink, Outlet } from "react-router-dom";
 import { Box, List, ListItem, ListItemText } from "@mui/material";
 import { styled } from "@mui/system";
 
+
 const CustomListItem = styled(ListItem)(({ isActive }) => ({
   height: "52px",
 
@@ -43,7 +44,7 @@ const TabInnerComponent = () => {
 
   const handleLogout = () => {
     localStorage.clear();
-   
+
     Navigate('/'); // Navigate to the home page
   };
 
@@ -174,7 +175,9 @@ const TabInnerComponent = () => {
           minWidth: 0, // Prevents the right column from causing horizontal overflow
         }}
       >
-        <Outlet />
+       
+
+          <Outlet />
       </Box>
     </Box>
   );

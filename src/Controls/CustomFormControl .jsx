@@ -44,7 +44,7 @@ const CustomFormControl = styled(FormControl)({
        
     },
     '&.selecterror .MuiOutlinedInput-root.Mui-focused': {
-        borderColor: 'red !important',
+        borderColor: 'var(--ced-color-icon-danger) !important',
       },
 });
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { Typography, Box, TextField, FormControl, Select, MenuItem, Button, Hidden, styled } from '@mui/material';
 import InventoryTable from '../Tables/InventoryTable';
 
@@ -9,10 +9,17 @@ import CustomFormControl from '../../Controls/CustomFormControl ';
 import CustomPrimaryButton from '../../Controls/CustomPrimaryButton';
 import CustomSecondaryButton from '../../Controls/CustomSecondaryButton';
 import { Error } from '@mui/icons-material';
+import DoNotDisturbOutlinedIcon from '@mui/icons-material/DoNotDisturbOutlined';
+import { SnackbarContext, SnackbarProvider } from '../../toast/SnackbarProvider';
+import ConfirmationModal from '../../Modals/ConfirmationModal';
 
+// import { CustomSnackbar } from '../../toast/CustomSnackbar';
 
 const IvMSettings = () => {
     const [tabledata, settabledata] = useState([]);
+    const [errors, setErrors] = useState({});
+ 
+
     const [openModal, setOpenModal] = useState(false);
 
     const [formData, setFormData] = useState({
@@ -23,8 +30,15 @@ const IvMSettings = () => {
         zip: '',
         email: '',
       });
+      const [confirmationOpen, setConfirmationOpen] = useState(false); // Confirmation modal state
+      const { showSnackbar  } = useContext(SnackbarContext);
 
-      const [errors, setErrors] = useState({});
+   
+
+    //   if (!showSnackbar) {
+    //     console.error('Snackbar context is not available');
+    //     return null;
+    //   }
 
 
       const handleChange = (e) => {
@@ -72,11 +86,44 @@ const IvMSettings = () => {
     const handleClose = () => {
         setOpenModal(false);
         document.body.style.overflow = 'auto';
+
+        // Show confirmation modal when "Cancel" is clicked
+    setConfirmationOpen(true);
     };
 
+    const handleConfirmationClose = () => {
+        
+        setConfirmationOpen(false); // Close confirmation modal
+        handleOpen()
+      };
+    
+
+      const handleCancelConfirm = () => {
+        // Perform cancel action and close both modals
+      
+        setConfirmationOpen(false);
+
+        showSnackbar('Transaction cancelled!', 'success');
+       // handleOpen()
+      };
+
+
+      const handleSave=()=>
+      {
+
+        setOpenModal(false);
+        
+        showSnackbar('Details saved successfully!', 'success');
+       
+
+        document.body.style.overflow = 'auto';
+
+      }
 
     const handleSubmit = () => {
        
+        showSnackbar('Please fill the required fields!', 'error');
+
         const newErrors = {};
         Object.keys(formData).forEach((key) => {
           if (!formData[key] || (key === 'state' && formData[key] === '0')) {
@@ -113,6 +160,8 @@ const IvMSettings = () => {
 
 
     };
+
+
     useEffect(() => {
         console.log('useEffect called');
         try {
@@ -122,8 +171,6 @@ const IvMSettings = () => {
             console.error('Error loading data:', error);
         }
     }, []);
-
-  
 
 
     return (
@@ -327,7 +374,7 @@ const IvMSettings = () => {
 
                 {/* Simple Textbox for Email */}
                 <Box className="input-container">
-                {errors.email && <p className="error-text"><Error /> Email Id is Incorrect {errors.email}</p>}
+                {errors.email && <p className="error-text"><DoNotDisturbOutlinedIcon sx={{fontSize:"1rem",fontWeight:'800'}} /> Email Id is Incorrect {errors.email}</p>}
                 <CustomTextField
                     variant="outlined"
                      name="email"
@@ -406,10 +453,21 @@ const IvMSettings = () => {
 
             <InventoryTable rows={tabledata} />
             {/* Add Inventory Modal */}
-            <AddInventoryModal open={openModal} handleClose={handleClose} />
+            <AddInventoryModal open={openModal}
+            
+            handleSave={handleSave}
+            handleClose={handleClose} />
+
+             {/* Confirmation Modal */}
+      <ConfirmationModal
+        confirmopen={confirmationOpen}
+        handleConfirmClose={handleConfirmationClose}
+        handleConfirm={handleCancelConfirm}
+      />
 
         </Box>
     )
 }
+
 
 export default IvMSettings

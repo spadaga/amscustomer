@@ -5,12 +5,14 @@ import Routing from './routing/Routing';
 import './Theme/Theme.css'
 import { ThemeProvider } from '@mui/material';
 import theme from './Theme/theme.js'
+import { SnackbarProvider } from './toast/SnackbarProvider.js';
 
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-    <Routing/>
+
+    <ThemeProvider theme={theme}><SnackbarProvider>
+      <Routing /></SnackbarProvider>
     </ThemeProvider>
   );
 }

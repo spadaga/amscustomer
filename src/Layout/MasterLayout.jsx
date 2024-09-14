@@ -14,17 +14,21 @@ import TabComponent from '../components/TabComponent';
 import { Height, VoiceOverOffOutlined } from '@mui/icons-material';
 import { Box, height } from '@mui/system';
 import { useTheme } from '../Theme/CustomThemeProvider';
+import { SnackbarProvider } from '../toast/SnackbarProvider';
 
 
 const MasterLayout = () => {
     const { theme } = useTheme();
     return (
         // <ThemeProvider theme={theme}>
-         <div className={`${theme}`} > 
-            <Box  sx={{height:"100vh", overflow:"scroll" }}>
-            <Headercomponent />
-            <TabComponent/></Box>
-           </div> 
+        <div className={`${theme}`} >
+            <Box sx={{ height: "100vh", overflow: "scroll" }}>
+              
+                    <Headercomponent />
+                    <TabComponent />
+                
+            </Box>
+        </div>
         // </ThemeProvider>
     )
 }

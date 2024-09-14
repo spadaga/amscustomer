@@ -20,7 +20,7 @@ import { useTheme } from '../Theme/CustomThemeProvider';
 import { Bolt } from '@mui/icons-material';
 
 
-const AddInventoryModal = ({ open, handleClose }) => {
+const AddInventoryModal = ({ open, handleClose,handleSave }) => {
     const { theme } = useTheme();
     const [state, setState] = React.useState(''); // State dropdown value
 
@@ -169,7 +169,7 @@ const AddInventoryModal = ({ open, handleClose }) => {
 
                     {/* Save and Cancel Buttons */}
                     <Box display="flex" gap={2}>
-                        <CustomPrimaryButton variant="contained" color="primary">
+                        <CustomPrimaryButton variant="contained" color="primary" onClick={handleSave}>
                             Save
                         </CustomPrimaryButton>
                         <CustomSecondaryButton variant="outlined" onClick={handleClose}>

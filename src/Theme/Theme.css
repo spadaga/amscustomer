@@ -1138,16 +1138,16 @@ outline: 1px solid red !important; */
 }
 
 .selecterror div{
-  border-color: red !important;
+  border-color: var(--ced-color-icon-danger) !important;
     /* border-radius: 4px !important; */
     /* margin: 0px; */
-    box-shadow: 1px solid red !important;
-    outline-color:  2px solid red !important
+    box-shadow: 1px solid var(--ced-color-icon-danger) !important;
+    outline-color:  2px solid var(--ced-color-icon-danger) !important
 }
 
 
 .required-field input {
-    border: 1px solid red !important;
+    border: 2px solid var(--ced-color-icon-danger)!important;
     border-radius: 4px !important;
     margin: 2px;
   }
@@ -1156,10 +1156,13 @@ outline: 1px solid red !important; */
     display: flex;
     align-items: center;
     justify-items: center;
-    color: red;
+    color: var(--ced-color-icon-danger);
     margin: 0;
     padding: 0;
-   
+    margin-bottom: var(--ced-spacing-xsmall);
+    color: var(--ced-color-global-danger-1);
+    font-weight: var(--ced-font-weight-semi-bold);
+    font-size: var(--ced-font-size-xsmall);
     gap: 8px;
 
   }
@@ -1180,13 +1183,13 @@ outline: 1px solid red !important; */
   .selecterror .MuiOutlinedInput-input:focus-visible
   {
       border: none !important;
-      outline: 1px solid red !important;
+      outline: 1px solid var(--ced-color-icon-danger) !important;
       margin: 3px -1px;
   }
 
   .selecterror .Mui-focused{ 
    
-          border-color: red !important
+          border-color: var(--ced-color-icon-danger) !important
 }
   
   /* .required-field .MuiOutlinedInput-notchedOutline {
