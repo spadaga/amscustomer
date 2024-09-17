@@ -1206,3 +1206,47 @@ outline: 1px solid red !important; */
     border-radius: 4px !important;
     margin: 2px;
   } */
+
+  .centered-cell {
+    text-align: center !important;
+  }
+
+  .left-cell
+  {
+    text-align: left !important;
+  }
+
+  /* styles.css or a similar file */
+.table-header-no-sort .MuiTableSortLabel-icon {
+    display: none;
+}
+
+
+.emptycell:hover {
+  display: none;
+}
+
+.emptycell {
+ padding: "0px !important";
+ margin: "0px !important";
+}
+
+
+
+
+
+
+.warning__icon
+{
+  color: var(--dxp-g-warning-2) ;
+}
+.prod_desc
+{
+  color: var(--ced-color-text-brand) !important;
+  cursor: pointer;
+}
+
+.prod_desc:hover
+{
+  text-decoration: underline !important;
+}

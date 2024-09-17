@@ -25,9 +25,22 @@ export const SnackbarProvider = ({ children }) => {
       {children}
       <Snackbar
         open={snackbarOpen}
+        sx={{
+          width: '400px',   // Custom width
+         
+          '& .MuiSnackbarContent-root': {
+            height: '280px',  // Custom height for the Snackbar content
+            
+          },
+          '&.MuiSnackbar-root' :
+          {
+
+            top:"0px"
+          }
+        }}
         autoHideDuration={4000}
         onClose={handleClose}
-        anchorOrigin={{ vertical: 'top', horizontal: 'right' }}  
+      anchorOrigin={{ vertical: 'top', horizontal: 'center' }}  
       >
         <Alert onClose={handleClose}  sx={{ width: '100%' }} variant="filled" severity={snackbarSeverity}>
           {snackbarMessage}

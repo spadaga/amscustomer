@@ -1,0 +1,23 @@
+[
+    { "id": 1, "label": "PRIMARY - INVENTORY" },
+    { "id": 2, "label": "SECONDARY - INVENTORY" },
+    { "id": 3, "label": "TERTIARY - INVENTORY" },
+    { "id": 4, "label": "QUATERNARY - INVENTORY" },
+    { "id": 5, "label": "QUINARY - INVENTORY" },
+    { "id": 6, "label": "SENARY - INVENTORY" },
+    { "id": 7, "label": "SEPTENARY - INVENTORY" },
+    { "id": 8, "label": "OCTONARY - INVENTORY" },
+    { "id": 9, "label": "NONARY - INVENTORY" },
+    { "id": 10, "label": "DENARY - INVENTORY" },
+    { "id": 11, "label": "ELEVENTH - INVENTORY" },
+    { "id": 12, "label": "TWELFTH - INVENTORY" },
+    { "id": 13, "label": "THIRTEENTH - INVENTORY" },
+    { "id": 14, "label": "FOURTEENTH - INVENTORY" },
+    { "id": 15, "label": "FIFTEENTH - INVENTORY" },
+    { "id": 16, "label": "SIXTEENTH - INVENTORY" },
+    { "id": 17, "label": "SEVENTEENTH - INVENTORY" },
+    { "id": 18, "label": "EIGHTEENTH - INVENTORY" },
+    { "id": 19, "label": "NINETEENTH - INVENTORY" },
+    { "id": 20, "label": "TWENTIETH - INVENTORY" }
+  ]
+  
