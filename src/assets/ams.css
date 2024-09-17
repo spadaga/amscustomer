@@ -2097,69 +2097,7 @@ a.paginate_button {
     width: 20%;
 }
 
- /* input[type=checkbox] {
-    appearance: none;
-    background: #FAFAFA;
-    border: 2.5px solid var(--ced-color-border-neutral-dark);
-    height: 1.5em !important;
-    width: 1.5em;
-    display: inline-block;
-    border-radius: 100%;
-    vertical-align: text-bottom;
-    position: relative;
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit !important;
-    border-radius: 6px;
-    line-height: normal;
-    width: 21px;
-    height: 21px !important;
-} 
-
-    input[type=checkbox]:before {
-        content: '';
-        position: absolute;
-        margin: auto;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        overflow: hidden;
-        top: 0;
-         line-height: normal; 
-     }
-
-td.tdcheckbox {
-    display: flex;
-}
-
- input[type=checkbox]:checked {
-    background: var(--ced-color-global-brand-2);
-}
-
-input[type="checkbox"]::before {
-    content: '';
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    top: 0;
-}
-
-input[type="checkbox"]:checked::before {
-    border-right: 2px solid #FFFFFF;
-    border-bottom: 2px solid #FFFFFF;
-    height: 70%;
-    width: 40%;
-    transform: rotate(45deg) translateY(-7%) translateX(-12%);
-}
-
-input[type="checkbox"]:focus {
-    outline: 2px solid var(--ced-color-global-white) !important;
-    box-shadow: 0px 0px 0px 4px var(--ced-color-global-brand-3) !important;
-} */ */ */
+ 
 
 #view_productModal .subtitle.mfr_text.descellipses {
     WIDTH: 50%;
@@ -6310,16 +6248,7 @@ button.current-page
    
 }
   
-  /* Bottom border for sorted column */
-  /* .sorted-column::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #ffeb3b; 
-  } */
+
   
   /* Hover effect on sorted column */
   .sorted-column:hover {
