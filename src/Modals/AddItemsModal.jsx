@@ -32,6 +32,25 @@ const AddItemsModal = ({ open, handleClose }) => {
         mb: "2%", // Margin at the bottom
 
     };
+    const scrollbarStyles = {
+        '&::-webkit-scrollbar': {
+            width: '12px',
+        },
+        '&::-webkit-scrollbar-track': {
+            background: '#f1f1f1',
+            borderRadius: '10px',
+        },
+        '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#888',
+            borderRadius: '10px',
+            border: '3px solid #f1f1f1',
+        },
+        '&::-webkit-scrollbar-thumb:hover': {
+            backgroundColor: '#555',
+        },
+        overflowY: 'auto',
+        maxHeight: '70vh', // Adjust the height of the scrollable area
+    };
     return (
         <Modal
             open={open}
@@ -39,7 +58,8 @@ const AddItemsModal = ({ open, handleClose }) => {
             aria-labelledby="add-items-modal-title"
             aria-describedby="add-items-modal-description"
         >
-            <> <div className={`${theme}`} >
+            <> <div className={`${theme}`}  >
+                <Box >
 
                 <Box
                     sx={style}
@@ -52,29 +72,20 @@ const AddItemsModal = ({ open, handleClose }) => {
                     </Box>
 
                     {/* Divider */}
-                    <Divider sx={{ my: 2 }} />
+                   
 
-                    <Box>
-                        <AddItemsInvTabComponent />
+                    <Box sx={scrollbarStyles}>
+                        <AddItemsInvTabComponent handleClose={handleClose} />
 
 
 
                     </Box>
 
-                    {/* Divider below the table */}
-                    <Divider sx={{ my: 2 }} />
+                  
 
-                    {/* Buttons container */}
-                    <Box display="flex" justifyContent="flex-start" gap={2} mt={2}>
-                        <CustomPrimaryButton variant="contained" color="primary" onClick={() => console.log("Transfer Items clicked")}>
-                            Transfer Items
-                        </CustomPrimaryButton>
-                        <CustomSecondaryButton variant="outlined" onClick={handleClose}>
-                            Cancel
-                        </CustomSecondaryButton>
-                    </Box>
+
                 </Box>
-
+                </Box>
             </div>
 
             </>

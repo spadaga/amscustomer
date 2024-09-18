@@ -5,8 +5,10 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 
 import { styled } from '@mui/system';
-import { Typography } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import TransferItemsTabContent from './TransferItemsTabContent';
+import CustomPrimaryButton from '../Controls/CustomPrimaryButton';
+import CustomSecondaryButton from '../Controls/CustomSecondaryButton';
 
 // Custom Tab styles
 const CustomTab = styled(Tab)({
@@ -87,7 +89,10 @@ CustomTabPanel.propTypes = {
     value: PropTypes.number.isRequired,
 };
 
-export default function AddItemsInvTabComponent() {
+
+
+
+const AddItemsInvTabComponent = ({  handleClose }) => {
     const [value, setValue] = React.useState(0);
 
     const handleChange = (event, newValue) => {
@@ -112,6 +117,18 @@ export default function AddItemsInvTabComponent() {
 
                     <TransferItemsTabContent />
 
+                     {/* Divider below the table */}
+                     <Divider sx={{ my: 2 }} />
+                     {/* Buttons container */}
+                     <Box display="flex" justifyContent="flex-start" gap={2} mt={2}>
+                        <CustomPrimaryButton variant="contained" color="primary" onClick={() => console.log("Transfer Items clicked")}>
+                            Transfer Items
+                        </CustomPrimaryButton>
+                        <CustomSecondaryButton variant="outlined" onClick={handleClose}>
+                            Cancel
+                        </CustomSecondaryButton>
+                    </Box>
+
 
                 </CustomTabPanel>
                 <CustomTabPanel value={value} index={1}>
@@ -121,3 +138,4 @@ export default function AddItemsInvTabComponent() {
         </Box>
     );
 }
+export default AddItemsInvTabComponent;

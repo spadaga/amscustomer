@@ -190,7 +190,7 @@ const TransferItemsTable = ({ rows }) => {
                                                 order={order}
                                                 handleSortRequest={handleSortRequest}
                                                 label={header}
-                                                disableSorting={index === 1} // Disable sorting for the third column
+                                               
                                             />
                                         </TableCell>
                                     ))}

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import TabInnerComponent from './TabInnerComponent';
 import StaticMessage from './StaticMessage';
 import { styled } from '@mui/system';
+import ProgressBar from '../Loader/ProgressBar';
 
 // Custom Tab styles
 const CustomTab = styled(Tab)({
@@ -89,13 +90,22 @@ CustomTabPanel.propTypes = {
 
 export default function TabComponent() {
   const [value, setValue] = React.useState(0);
+  const [isLoading, setIsLoading] = useState(false); // Loading state for progress bar
 
   const handleChange = (event, newValue) => {
+    setIsLoading(true); // Start loading when tab changes
     setValue(newValue);
+    // Simulate loading delay
+    setTimeout(() => {
+      setIsLoading(false); // Stop loading after content is ready
+    }, 1000); // Adjust delay as per requirement
   };
 
   return (
     <Box sx={{ width: '100%', padding: '0px', overflow: 'auto' }}>
+        {/* Show ProgressBar when loading */}
+        {isLoading && <ProgressBar />} 
+
       <Box sx={{ width: '100%', padding: '8px' }}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs
