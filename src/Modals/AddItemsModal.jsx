@@ -22,7 +22,7 @@ const AddItemsModal = ({ open, handleClose }) => {
         left: '50%',
         transform: 'translate(-50%, 0)', // Keep horizontal centering but not vertical transformation
         width: '90%', // Set width to 80% of the parent
-        maxHeight: '90vh', // Prevent modal from exceeding viewport height
+      
         bgcolor: 'background.paper',
         borderRadius: '8px',
         boxShadow: 24,

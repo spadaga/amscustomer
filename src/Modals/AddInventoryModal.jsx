@@ -17,7 +17,7 @@ import CustomFormControl from '../Controls/CustomFormControl ';
 import CustomPrimaryButton from '../Controls/CustomPrimaryButton';
 import CustomSecondaryButton from '../Controls/CustomSecondaryButton';
 import { useTheme } from '../Theme/CustomThemeProvider';
-import { Bolt } from '@mui/icons-material';
+import { Bolt, Padding } from '@mui/icons-material';
 
 
 const AddInventoryModal = ({ open, handleClose,handleSave }) => {
@@ -30,19 +30,42 @@ const AddInventoryModal = ({ open, handleClose,handleSave }) => {
 
     const style = {
         position: 'absolute',
-        top: '50%',
+        top: '0%', // Padding from the top
         left: '50%',
-        transform: 'translate(-50%, -50%)',
+        transform: 'translate(-50%, 0)', // Keep horizontal centering but not vertical transformation
         width: 600,
+        maxHeight: '90vh', // Prevent modal from exceeding viewport height
         bgcolor: 'background.paper',
         borderRadius: '8px',
         boxShadow: 24,
-        p: 4,
-        mt:"5%",
-        mb:"15%"
+        overflow: 'hidden', // Allow the modal itself to be scrollable
+        p: 3,
+        mt: "1%", // Margin at the top
+        mb: "2%", // Margin at the bottom
+
 
     };
 
+    const scrollbarStyles = {
+       
+        '&::-webkit-scrollbar': {
+            width: '12px',
+        },
+        '&::-webkit-scrollbar-track': {
+            background: '#f1f1f1',
+            borderRadius: '10px',
+        },
+        '&::-webkit-scrollbar-thumb': {
+            backgroundColor: '#888',
+            borderRadius: '10px',
+            border: '3px solid #f1f1f1',
+        },
+        '&::-webkit-scrollbar-thumb:hover': {
+            backgroundColor: '#555',
+        },
+        overflowY: 'auto',
+        maxHeight: '70vh', // Adjust the height of the scrollable area
+    };
     return (
         <Modal
             open={open}
@@ -50,11 +73,7 @@ const AddInventoryModal = ({ open, handleClose,handleSave }) => {
             aria-labelledby="add-inventory-modal"
             aria-describedby="add-inventory-form"
             closeAfterTransition
-            sx={{
-                overflowY: 'auto', // Ensure the overlay (backdrop) is scrollable
-
-
-            }}
+           
         >
              <div className={`${theme}`} > 
             <Box sx={style}>
@@ -68,9 +87,9 @@ const AddInventoryModal = ({ open, handleClose,handleSave }) => {
 
                 {/* Divider */}
                 <Divider sx={{ my: 2 }} />
-
+                <Box sx={scrollbarStyles} >
                 {/* Form Fields */}
-                <Box display="flex" flexDirection="column" gap={1} sx={{ display: 'flex', flexDirection: 'column', gap: '2px', marginTop: '20px' }}>
+                <Box display="flex" flexDirection="column" gap={1} sx={{padding:"0px 24px", display: 'flex', flexDirection: 'column', gap: '2px', marginTop: '20px' }}>
                     {/* Description */}
                     <Box sx={{m:0}}>
                         <Typography variant="body1" >
@@ -176,6 +195,7 @@ const AddInventoryModal = ({ open, handleClose,handleSave }) => {
                             Cancel
                         </CustomSecondaryButton>
                     </Box>
+                </Box>
                 </Box>
             </Box>
             </div>
