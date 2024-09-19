@@ -21,6 +21,8 @@ import TableToolbar from '../../Controls/TableToolbar';
 import TableSortHeader from '../../Controls/TableSortHeader';
 import { pink } from '@mui/material/colors';
 
+
+
 const StyledCheckbox = styled(Checkbox)(({ theme }) => ({
     width: '21px',
     height: '21px',
@@ -222,7 +224,7 @@ const ViewInventoryTable = ({ rows }) => {
                                                 placement="top"
                                             >
                                                 <div style={{ display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
-                                                    <img src="/images/noimage.png" alt="Product Icon" style={{ width: '44px', height: '44px', marginRight: '8px' }} />
+                                                    <img src={`${process.env.PUBLIC_URL}/images/NoImage.png`} alt="Product Icon" style={{ width: '44px', height: '44px', marginRight: '8px' }} />
                                                     <div style={{ maxWidth: '200px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
 
                                                         <Typography variant="body2" className='prod_desc' style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
