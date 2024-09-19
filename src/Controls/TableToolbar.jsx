@@ -13,9 +13,9 @@ const TableToolbar = ({ searchTerm, onSearch, onClearSearch, selectAll, onSelect
                 onChange={onSearch}
                 onClear={onClearSearch}
             />
-            <Typography variant="body2" sx={{ mt: 2, mb: 2 }}>
+            {/* <Typography variant="body2" sx={{ mt: 2, mb: 2 }}>
                 Showing {currentEntries} of {totalEntries} entries
-            </Typography>
+            </Typography> */}
           
         </div>
     );
